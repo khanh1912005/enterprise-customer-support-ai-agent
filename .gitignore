@@ -1,0 +1,73 @@
+
+# ==============================
+# PYTHON
+# ==============================
+
+.venv/
+venv/
+env/
+
+__pycache__/
+*.py[cod]
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+.coverage
+htmlcov/
+
+
+# ==============================
+# FRONTEND
+# ==============================
+
+node_modules/
+frontend/node_modules/
+
+dist/
+frontend/dist/
+frontend/.vite/
+
+
+# ==============================
+# ENVIRONMENT VARIABLES
+# ==============================
+
+.env
+.env.*
+!.env.example
+
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+
+# ==============================
+# DATABASE AND VECTOR DATA
+# ==============================
+
+data/chroma/
+
+*.sqlite
+*.sqlite3
+*.db
+
+
+# ==============================
+# LOGS
+# ==============================
+
+*.log
+logs/
+
+
+# ==============================
+# IDE AND OPERATING SYSTEM
+# ==============================
+
+.vscode/
+.idea/
+
+.DS_Store
+Thumbs.db
